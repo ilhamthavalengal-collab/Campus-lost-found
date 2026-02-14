@@ -95,15 +95,15 @@ Not applicable.
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1]<img width="898" height="655" alt="Screenshot 2026-02-14 093503" src="https://github.com/user-attachments/assets/4e962bc1-e4e6-4771-b72f-21720c0e940e" />
+![Screenshot1]<img width="834" height="598" alt="Screenshot 2026-02-14 093424" src="https://github.com/user-attachments/assets/6cdb4104-50ff-42b2-984f-609c08882058" />
+
 
 
 
 ![Screenshot2]<img width="926" height="693" alt="Screenshot 2026-02-14 093449" src="https://github.com/user-attachments/assets/7abab74c-3577-48d9-899b-080af950905b" />
 
 
-![Screenshot3]<img width="834" height="598" alt="Screenshot 2026-02-14 093424" src="https://github.com/user-attachments/assets/6cdb4104-50ff-42b2-984f-609c08882058" />
-
+![Screenshot3]<img width="898" height="655" alt="Screenshot 2026-02-14 093503" src="https://github.com/user-attachments/assets/2e6efd28-a4f9-4a2b-90cd-c7e8c8db4c0e" />
 
 #### Diagrams
 
