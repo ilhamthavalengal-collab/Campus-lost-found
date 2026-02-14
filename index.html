@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="title">Reporting Lost / Found Item</h2>
+
+<!-- Screen 1 -->
+<div class="screen active" id="screen1">
+    <h3>Add the photo of your lost / found item (optional)</h3>
+
+    <!-- Hidden file input -->
+    <input type="file" id="photoInput" accept="image/*" capture="environment"
+           onchange="previewPhoto()" hidden>
+
+    <button onclick="document.getElementById('photoInput').click()">
+        Upload Photo 
+    </button>
+
+    <!-- Image Preview -->
+    <img id="photoPreview" style="display:none; margin-top:15px; width:100%; border-radius:10px;">
+
+    <div class="nav">
+        <button onclick="nextScreen(2)">Next</button>
+    </div>
+</div>
+
+
+<!-- Screen 2 -->
+<div class="screen" id="screen2">
+    <h3>Add title and description</h3>
+    <input type="text" id="itemTitle" placeholder="Write Title">
+    <textarea id="itemDescription" placeholder="Write description"></textarea>
+
+    <div class="nav">
+        <button onclick="prevScreen(1)">Back</button>
+        <button onclick="saveDetails()">Next</button>
+    </div>
+</div>
+
+<!-- Screen 3 -->
+<div class="screen" id="screen3">
+    <h3>Add location, date and time</h3>
+
+    <input type="text" id="itemLocation" placeholder="Location">
+    <input type="date" id="itemDate">
+    <input type="time" id="itemTime">
+
+    <div class="nav">
+        <button onclick="prevScreen(2)">Back</button>
+        <button onclick="saveLocation()">Next</button>
+    </div>
+</div>
+
+<!-- Screen 4 -->
+<div class="screen" id="screen4">
+    <h3>Your post will look like this after posting</h3>
+
+    <div class="card">
+
+        <!-- ✅ PUT IMAGE HERE -->
+        <img id="finalPhoto"
+             style="width:100%; border-radius:10px; margin-bottom:10px; display:none;">
+
+        <h4 id="previewTitle">Item Title</h4>
+        <p id="previewDescription">Item description</p>
+
+        <small>
+            📍 <span id="previewLocation"></span> |
+            📅 <span id="previewDate"></span> |
+            🕒 <span id="previewTime"></span>
+        </small>
+    </div>
+
+    <div class="nav">
+        <button onclick="prevScreen(3)">Back</button>
+        <button onclick="postItem()">Post</button>
+    </div>
+</div>
+
+
+<!-- Screen 5 : Post Successful -->
+<div class="screen" id="screen5">
+    <div class="success-box">
+        <div class="tick">✔</div>
+        <h2>Post Successful</h2>
+        <p>Your item has been posted successfully.</p>
+
+        <button onclick="goHome()">Post Another Item</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
