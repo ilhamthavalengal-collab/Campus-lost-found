@@ -1,29 +1,29 @@
-<p align="center">
+<img width="898" height="655" alt="image" src="https://github.com/user-attachments/assets/8c68bb3b-d09b-4877-9aec-28f6aaa58164" /><p align="center">
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Campus-lost-found 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Inovix
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Ilham - Ilahia college of engineering and technology
+- Member 2: Ansiya A P - Ilahia college of engineering and technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+it is a application for reporting missing items from the campus
 
 ### The Problem statement
-[What problem are you solving?]
+its problem is lost items in the campus never reach the owner
 
 ### The Solution
-[How are you solving it?]
-
+-upload lost/foound item photo
+-claim verification
 ---
 
 ## Technical Details
@@ -31,25 +31,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: JavaScript, html, css
+- Frameworks used: none
+- Libraries used: none
+- Tools used: VS Code, Git, web browser
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: laptop and smartphone
+- Specifications: processor,ram,storage,camera
+- Tools required: keyboard and mouse,internet connection
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: user friendly description
+- Feature 2: photo-uploat facility
+- Feature 3: title and description input
+- Feature 4: location,date and time entry
 
 ---
 
@@ -58,22 +58,34 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+ No installation is required.
+
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+Open index.html in any modern web browser.
+
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+Laptop or Desktop computer
+
+Smartphone (optional, for testing camera functionality)
+
+Minimum Specifications:
+
+Processor: Intel i3 or equivalent
+
+RAM: 4 GB or higher
+
+Storage: 1 GB free space
+
+Camera (optional): For photo upload testing
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+Not applicable.
 
 ---
 
@@ -83,26 +95,58 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]<img width="898" height="655" alt="image" src="https://github.com/user-attachments/assets/1494dfe7-99c9-44a6-a85f-4cf867bab44a" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]<img width="926" height="693" alt="Screenshot 2026-02-14 093449" src="https://github.com/user-attachments/assets/f9cf5f96-9e38-4bb6-a400-90ab87724133" />
+
+
+![Screenshot3]<img width="898" height="655" alt="Screenshot 2026-02-14 093503" src="https://github.com/user-attachments/assets/d8cd00f0-5761-4485-9149-7a83fc5e9c4f" />
+
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram]+-------------------+
+|       User        |
+| (Student / Staff) |
++---------+---------+
+          |
+          v
++-------------------+
+|   Web Browser     |
+| (Chrome / Edge)   |
++---------+---------+
+          |
+          v
++-------------------------------+
+|   Frontend Application        |
+|                               |
+|  +-------------------------+  |
+|  |        HTML             |  |
+|  |  - Screens Structure    |  |
+|  |  - Forms & Inputs       |  |
+|  +-------------------------+  |
+|                               |
+|  +-------------------------+  |
+|  |        CSS              |  |
+|  |  - Layout & Styling    |  |
+|  |  - Responsive Design  |  |
+|  +-------------------------+  |
+|                               |
+|  +-------------------------+  |
+|  |     JavaScript          |  |
+|  |  - Navigation Logic     |  |
+|  |  - Data Handling        |  |
+|  |  - Image Preview        |  |
+|  +-------------------------+  |
++-------------------------------+
+
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+![Workflow]<img width="1920" height="1095" alt="image" src="https://github.com/user-attachments/assets/8ac9c450-c700-4f97-ae69-5a7690863310" />
 
 ---
 
@@ -110,8 +154,8 @@ List the key features of your project:
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit]
+
 
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
